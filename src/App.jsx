@@ -13,7 +13,7 @@ const App = () => {
 
 
 useEffect(() => {
-  setLocalStorage();
+ 
   if(authdata){
     const loggedInUser = localStorage.getItem('loggedInUser');
     if(loggedInUser){
